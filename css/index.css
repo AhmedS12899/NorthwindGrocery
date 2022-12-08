@@ -1,0 +1,32 @@
+.carousel .carousel-item {
+    height: 600px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel img{
+    height:600px
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#jumbo .row>*{
+    padding-left: 0;
+    padding-right: 0;
+}
+.jumbotron{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
