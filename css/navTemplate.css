@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+html,
+body {
+    font-family: 'Poppins';
+    font-size: 15px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    margin: 0;
+    top: 0;
+    left: 0;
+}
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 3px;
+    background-clip: padding-box;
+    border: 1 solid transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 0 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(55, 38, 19);
+    font-weight: 500;
+}
+
+.navbar a:hover {
+    color: rgb(56, 126, 61);
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    border-bottom: 1px solid rgba(1, 36, 6, 0.12);
+    padding: 3rem 0rem;
+    height: 0rem;
+    min-height: 12vh;
+    position: absolute;
+}
+
+.navbar .navbar-brand a {
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+
+.container-fluid .navbar-brand {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.0rem;
+    color: rgb(55, 38, 19)
+}
+
+.navbar-toggler {
+    background: rgb(55, 38, 19);
+    border: none;
+    padding: 10px 10px;
+    outline: none;
+}
+
+.navbar-toggler span {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background-color: rgb(56, 126, 61);
+}
+
+.navbar-toggler span+span {
+    margin-top: 4px;
+    width: 18px;
+    margin-left: 4px;
+}
+
+.navbar-toggler span+span+span {
+    width: 10px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width:992px) {
+
+    .navbar,
+    .navbar .container-fluid,
+    .navbar-collapse {
+        padding: 0 2rem;
+        /*background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgb(128, 128, 128), rgb(255, 255, 255));*/
+    }
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding: 2rem 1rem;
+    font-size: 1.10rem;
+    position: relative;
+}
+
+.navbar-expand-md .navbar-nav .nav-link:hover {
+    border-top: 4px solid rgb(56, 126, 61);
+}
+
+.navbar-expand-md .navbar-nav .nav-link:active {
+    border-top: 4px solid rgb(41, 68, 43);
+    color: red;
+}
